@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+
+
+   background-color: rgb(69, 39, 39);
+    
+}
+.topo a{
+    color: white;
+    text-decoration: none;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top:300px ;
+
+    background-color: rgb(160, 95, 95);
+    
+    position: relative;
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100px;
+
+    transition: 0.9s;
+    animation-name: move;
+    animation-duration: 4s;
+
+}
+@keyframes move {
+    from{left:0;}
+    to{left:500px;}
+    
+}
+.box:hover{
+    background-color: rgb(191, 223, 32);
+    border-radius: 150;
+    width: 300px 300px;
+}

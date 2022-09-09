@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+
+
+   background-color: rgb(69, 39, 39);
+    
+}
+.topo a{
+    color: white;
+    text-decoration: none;
+
+}
+.container{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+
+        width: 1890px;
+        height: 900px;
+    
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-shadow: 10px;
+
+    background-color: cadetblue;
+    
+    position: relative;
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100px;
+        
+}
+.box{
+    animation-name: pular;
+    animation-duration:5s ;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pular{
+        
+
+        0%{bottom:0px;left:190px}
+        10%{bottom:30px;left:170px;}
+        20%{
+            bottom:0px;left:150px;
+            background-color:black;
+        }
+       
+        30%{bottom:30px;left:130px;}
+        40%{bottom:0px;left: 110px;
+            background-color: aquamarine;}
+        50%{bottom:30px;left:90px;}
+        60%{bottom:0px;left: 70px;;
+        background-color: yellow;}
+        70%{bottom: 30px;left:50px;}
+        80%{bottom: 0px;left:30px;
+        background-color: tomato;}
+        100%{bottom:30px;left:0px;}
+    }
+    

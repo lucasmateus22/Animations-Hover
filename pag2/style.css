@@ -1,0 +1,186 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(197,32,32,1) 22%, rgba(177,43,43,1) 37%, rgba(144,47,47,1) 53%, rgba(142,13,13,1) 65%, rgba(100,9,9,1) 75%, rgba(0,0,0,1) 91%, rgba(0,0,0,1) 98%, rgba(0,0,0,1) 100%);
+    color: white;
+}
+.Banner{
+    display:flex;
+
+    width:absolute;
+    height:200px;
+    
+
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: rgb(255,0,0);
+background: linear-gradient(275deg, rgba(255,0,0,1) 0%, rgba(177,43,43,1) 16%, rgba(144,47,47,1) 27%, rgba(142,13,13,1) 38%, rgba(0,0,0,1) 52%, rgba(0,0,0,1) 72%, rgba(0,0,0,1) 100%);
+}
+
+
+.text{
+    width: absolute;
+    height: 120px;
+
+    background-color: black;
+}
+h2{
+    display: flex;
+    
+    justify-content: center;
+    font-size: 40px;
+}
+.container{
+    border:1px;
+    border-color: rgb(232, 231, 231);
+
+}
+.content-page{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    
+    
+    
+    margin:70px;
+    justify-content: center;
+
+    width:absolute;
+    min-height:200px;
+
+
+}
+
+.item{
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+
+    width: 300px;
+    height: 100px;
+
+    padding: 40px;
+    margin-left: 40px;
+
+    background-color: rgb(221, 193, 193);
+    
+    border:1px black;
+    border-radius: 50% 70% 50% 70%;
+
+    transition-duration: 0.9s;
+    
+
+}
+.item:hover{
+    transform: scale(1.1);
+
+    background-color: rgb(197, 136, 136);
+}
+
+img .item{
+    width: 70px;
+    height: 70px;
+
+    border-radius: 40px;
+}
+
+.content-page a {
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+
+}
+
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: absolute;
+    height: 400px;
+
+    background-color: darkgrey;
+
+}
+
+.text-side{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 340px;
+
+    margin-left: 30px;
+    margin-right: 100px;
+
+    color: black;
+
+}
+
+.item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+
+    margin: 20px;
+
+    border-radius: 150px;
+
+    background: rgb(255,255,255);
+    background: linear-gradient(211deg, rgba(255,255,255,1) 0%, rgba(147,56,56,1) 82%, rgba(0,0,0,1) 100%);
+
+    transition: 1.5s;
+
+    
+
+}
+
+.item2:hover{
+    transform: scale(1.1);
+}
+
+.pages{
+    display: flex;
+    justify-content: center;
+
+    width:absolute;
+    height:30px;
+
+    background-color: rgb(0, 0, 0);
+
+}
+
+.pages a{
+    margin: 7px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: absolute;
+
+    color: rgb(255, 255, 255);
+
+    margin:70px;
+
+}
+.descr{
+    margin:7px;
+
+}
+.ouvidoria{
+    margin:7px;
+
+}
+.endereço{
+    margin:7px;
+
+}

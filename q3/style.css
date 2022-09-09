@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+
+
+   background-color: rgb(69, 39, 39);
+    
+}
+.topo a{
+    color: white;
+    text-decoration: none;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top:300px ;
+    background-color: rgb(22, 105, 33);
+    
+    position: relative;
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100px;
+
+    transition: 0.9s;
+}
+.box:hover{
+    transform: scale(1.1);
+    background-color: rgb(110, 72, 167);
+    border-radius: 150;
+    
+}
